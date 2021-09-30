@@ -1,9 +1,10 @@
 # Databricks notebook source
 import pandas as pd
+import numpy as np
 
 # COMMAND ----------
 
-df = spark.sql("select * from consumer_insights_internal.abtests_master_table limit 10")
+df = spark.sql("select * from consumer_insights_internal.abtests_master_table limit 100")
 
 # COMMAND ----------
 
