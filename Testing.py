@@ -11,4 +11,8 @@ display(df)
 
 # COMMAND ----------
 
+df.show()
+
+# COMMAND ----------
+
 
